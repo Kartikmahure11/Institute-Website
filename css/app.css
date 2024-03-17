@@ -2387,6 +2387,7 @@ address {
 .footer_social_list>li>a {
     background: #676262;
     width: 35px;
+    margin-left: 20px;
     height: 35px;
     display: block;
     text-align: center;
