@@ -2362,6 +2362,7 @@ address {
     -o-transition: all 1s cubic-bezier(.905, .395, .12, .55)
 }
 
+
 @media screen and (max-width:768px) {
     .footer_desktop {
         display: none
@@ -2380,7 +2381,7 @@ address {
 }
 
 .footer_social_list>li {
-    margin-right: 13px
+    margin-right: 10px;
 }
 
 .footer_social_list>li>a {
