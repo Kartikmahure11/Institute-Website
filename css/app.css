@@ -22514,7 +22514,7 @@ body {
     font-family: FontAwesome;
     font-size: 10px;
     padding-left: 5px;
-    color: #f10969
+    color: #fff
 }
 
 .bt_placetech_box>p {
@@ -25175,14 +25175,14 @@ a.lightbox-close:after {
     font-family: FontAwesome;
     padding-left: 8px;
     font-size: 10px;
-    color: #fff;
+    color: #cc55d8;
     font-weight: 700
 }
 
 .thiru_buttons a:hover {
-    background-color: white;
-    box-shadow: 0 15px 20px rgb(46 85 229 / 40%);
-    color: black;
+    background-color: #da04f0;
+    box-shadow: 0 15px 20px #e292ea;
+    color: #e9f373;
     transform: translateY(-7px)
 }
 
