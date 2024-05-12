@@ -673,8 +673,8 @@ var $ = jQuery.noConflict();
         speedUp: 500,
         height: "130px",
         showText:
-          'Show More <i class="fa fa-angle-down" aria-hidden="true"></i>',
-        hideText: 'Show Less <i class="fa fa-angle-up" aria-hidden="true"></i>',
+          'Show More <i class="bx bx-down-arrow-alt"></i>',
+        hideText: 'Show Less <i class="bx bx-up-arrow-alt" ></i>',
       }),
       e(".testimonial-content-inner > p").showMore({
         speedDown: 500,
@@ -689,7 +689,7 @@ var $ = jQuery.noConflict();
         speedUp: 500,
         height: "450px",
         showText:
-          'Show More <i class="fa fa-angle-down" aria-hidden="true"></i>',
+          'Show More <i class="fa fa-angle-down" aria-hidden="false"></i>',
         hideText: 'Show Less <i class="fa fa-angle-up" aria-hidden="true"></i>',
       }),
       e(".bt_advisor_content").showMore({

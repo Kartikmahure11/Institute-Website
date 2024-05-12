@@ -621,8 +621,8 @@ pre code {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: 40px;
-    margin-left: 40px
+    margin-right: 16px;
+    margin-left: 17px
 }
 
 .no-gutters {
@@ -708,7 +708,7 @@ pre code {
 .col-xl-auto {
     position: relative;
     width: 100%;
-    padding-right: 15px;
+    padding-right: 17px;
     padding-left: 15px
 }
 
