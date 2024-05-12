@@ -78,11 +78,12 @@ body {
   padding-top: 10px;
 }
 
-.input-data label {
+.input-data label,
+.textarea label {
   position: absolute;
   pointer-events: none;
-  bottom: 10px;
   font-size: 16px;
+  bottom: 10px;
   transition: all 0.3s ease;
 }
 

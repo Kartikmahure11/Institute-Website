@@ -1,75 +1,88 @@
-/* Common styles for responsive tables */
+ /* Common styles for responsive tables */
 .tablepress-responsive * {
-    word-break: normal;
-  }
-  
-  /* Styles for smaller screens */
-  @media (max-width: 767px) {
-    .tablepress-responsive-stack-phone thead,
-    .tablepress-responsive-stack-tablet thead,
-    .tablepress-responsive-stack-desktop thead,
-    .tablepress-responsive-all thead {
-      display: none;
-    }
-    .tablepress-responsive-stack-phone tbody td,
-    .tablepress-responsive-stack-tablet tbody td,
-    .tablepress-responsive-stack-desktop tbody td,
-    .tablepress-responsive-all tbody td {
-      display: block;
-      text-align: center;
-      border-top: none;
-    }
-    .tablepress-responsive-stack-phone tbody td:first-child,
-    .tablepress-responsive-stack-tablet tbody td:first-child,
-    .tablepress-responsive-stack-desktop tbody td:first-child,
-    .tablepress-responsive-all tbody td:first-child {
-      border-top: 1px solid #ddd;
-    }
-  }
-  
-  /* Styles for medium-sized screens */
-  @media (max-width: 979px) {
-    .tablepress-responsive-tablet thead,
-    .tablepress-responsive-desktop thead {
-      display: none;
-    }
-    .tablepress-responsive-tablet tbody td,
-    .tablepress-responsive-desktop tbody td {
-      display: block;
-      text-align: center;
-      border-top: none;
-    }
-    .tablepress-responsive-tablet tbody td:first-child,
-    .tablepress-responsive-desktop tbody td:first-child {
-      border-top: 1px solid #ddd;
-    }
-  }
-  
-  /* Styles for larger screens */
-  @media (max-width: 1199px) {
-    .tablepress-responsive-desktop thead {
-      display: none;
-    }
-    .tablepress-responsive-desktop tbody td {
-      display: block;
-      text-align: center;
-      border-top: none;
-    }
-    .tablepress-responsive-desktop tbody td:first-child {
-      border-top: 1px solid #ddd;
-    }
-  }
-  
-  /* Styles for all screens */
+  word-break: normal;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 767px) {
+  .tablepress-responsive-stack-phone thead,
+  .tablepress-responsive-stack-tablet thead,
+  .tablepress-responsive-stack-desktop thead,
   .tablepress-responsive-all thead {
-    display: none;
+      display: none;
   }
+
+  .tablepress-responsive-stack-phone tbody td,
+  .tablepress-responsive-stack-tablet tbody td,
+  .tablepress-responsive-stack-desktop tbody td,
   .tablepress-responsive-all tbody td {
-    display: block;
-    text-align: center;
-    border-top: none;
+      display: block;
+      text-align: center;
+      border-top: 1px solid #ddd;
   }
+
+  .tablepress-responsive-stack-phone tbody td:first-child,
+  .tablepress-responsive-stack-tablet tbody td:first-child,
+  .tablepress-responsive-stack-desktop tbody td:first-child,
   .tablepress-responsive-all tbody td:first-child {
-    border-top: 1px solid #ddd;
+      border-top: none;
   }
-  
+}
+
+/* Styles for medium-sized screens */
+@media (min-width: 768px) and (max-width: 979px) {
+  .tablepress-responsive-tablet thead,
+  .tablepress-responsive-desktop thead,
+  .tablepress-responsive-all thead {
+      display: none;
+  }
+
+  .tablepress-responsive-tablet tbody td,
+  .tablepress-responsive-desktop tbody td,
+  .tablepress-responsive-all tbody td {
+      display: block;
+      text-align: center;
+      border-top: 1px solid #ddd;
+  }
+
+  .tablepress-responsive-tablet tbody td:first-child,
+  .tablepress-responsive-desktop tbody td:first-child,
+  .tablepress-responsive-all tbody td:first-child {
+      border-top: none;
+  }
+}
+
+/* Styles for larger screens */
+@media (min-width: 980px) and (max-width: 1199px) {
+  .tablepress-responsive-desktop thead,
+  .tablepress-responsive-all thead {
+      display: none;
+  }
+
+  .tablepress-responsive-desktop tbody td,
+  .tablepress-responsive-all tbody td {
+      display: block;
+      text-align: center;
+      border-top: 1px solid #ddd;
+  }
+
+  .tablepress-responsive-desktop tbody td:first-child,
+  .tablepress-responsive-all tbody td:first-child {
+      border-top: none;
+  }
+}
+
+/* Styles for all screens */
+.tablepress-responsive-all thead {
+  display: none;
+}
+
+.tablepress-responsive-all tbody td {
+  display: block;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.tablepress-responsive-all tbody td:first-child {
+  border-top: none;
+}

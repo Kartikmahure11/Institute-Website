@@ -673,8 +673,8 @@ var $ = jQuery.noConflict();
         speedUp: 500,
         height: "130px",
         showText:
-          'Show More <i class="bx bx-down-arrow-alt" aria-hidden="true"></i>',
-        hideText: 'Show less <i class="bx bx-up-arrow-alt" aria-hidden="true"></i>',
+          'Show More <i class="fa fa-angle-down" aria-hidden="true"></i>',
+        hideText: 'Show Less <i class="fa fa-angle-up" aria-hidden="true"></i>',
       }),
       e(".testimonial-content-inner > p").showMore({
         speedDown: 500,

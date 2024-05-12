@@ -26324,3 +26324,32 @@ ul.ss_links {
         width: 100%
     }
 }
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .contact-buttons a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #41B06E;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+   
+  
+  .contact-buttons a:hover {
+    background-color: #74E291;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contact-buttons a {
+      padding: 10px 15px; /* Adjust padding for smaller screens */
+    }
+  }
+  
